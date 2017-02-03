@@ -3,18 +3,18 @@
 }
 
 .p2{
-	background-color: blue;
+	background-color: white;
 }
 
 .p3{
-	background-color: blue;
+	background-color: red;
 }
 
 .MairieCalais{
 	width: 50%;
 }
 
-form{
+.form{
 	text-align: center;
 	margin-top: 5%;
 	border : solid 1px;
