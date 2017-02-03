@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>Index</title>
-		<meta name="viewport" content="width=device-width, user-scablable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scablable=no">
 		<link rel="icon" href="img/fav.ico"/>
     </head>
     <body>
@@ -13,6 +13,28 @@
 		<p style="background-color :white">Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante barbaricos pagos adventans velut mutato repente consilio ad placidiora deverti.</p>
 		<br />
 		<p style="background-color :red">Eius populus ab incunabulis primis ad usque pueritiae tempus extremum, quod annis circumcluditur fere trecentis, circummurana pertulit bella, deinde aetatem ingressus adultam post multiplices bellorum aerumnas Alpes transcendit et fretum, in iuvenem erectus et virum ex omni plaga quam orbis ambit inmensus, reportavit laureas et triumphos, iamque vergens in senium et nomine solo aliquotiens vincens ad tranquilliora vitae discessit.</p>
-		<img src="img/calais.jpg"/>
+		<img src="img/calais.jpg" style="width: 50%"/>
+		
+		<div class="form">
+			<label for="nom">Nom :</label>
+			<input type="text" name="mame" placeholder="Nom"/><br />
+			
+			<label for="dateness">Date de naissance :</label>
+			<input type="date" name="dateness" placeholder="Date de naissance"/><br />
+			
+			<label for="age">Age :</label>
+			<input type="number" name="age" placeholder="Age"/><br />
+			
+			<label for="PageFB">Page Facebook :</label>
+			<input type="text" name="PageFB" placeholder="Page Facebook"/><br />
+			
+			<label for="email">Adresse e-mail :</label>
+			<input type="text" name="email" placeholder="Adresse e-mail"/><br />
+			
+			<label for="numtel">Numero de telephone :</label>
+			<input type="tel" name="numtel" placeholder="Numero de telephone"/><br />
+			
+			<button type="submit">Soumettre</button>
+		</div>
     </body>
 </html>
