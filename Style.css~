@@ -23,8 +23,13 @@
 	border : solid grey 1px;
 }
 
-@media screen and (min-width: 200px) and (min-width: 640px){
+@media screen and (min-width: 200px) and (max-width: 640px){
 	.p1{
 		background-color: green;
+	}
+	
+	.form{
+		margin-left: 15%;
+		margin-right: 15%;
 	}
 }
