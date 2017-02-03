@@ -33,7 +33,7 @@
 			<input type="text" name="email" placeholder="Adresse e-mail" id="email"/><br />
 			
 			<label for="numtel">Numero de telephone :</label>
-			<input type="tel" name="numtel" placeholder="Numero de telephone" id="nom"/><br />
+			<input type="tel" name="numtel" placeholder="Numero de telephone" id="numtel"/><br />
 			
 			<button type="submit">Soumettre</button>
 		</div>
