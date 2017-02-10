@@ -31,9 +31,9 @@
     
     <body>
     	<header>
-    		<img src="img/logo-iut.jpg"
+    		<img class="logoiut" src="img/logo-iut.jpg" alt="Logo IUT" />
     	</header>
-		<h1>Blablablabla...</h1>
+		<h1>Coucouuuuu</h1>
 		<p class="p1">Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis et protectorum cum Scutariis et Gentilibus, et mandabat Domitiano, ex comite largitionum, praefecto ut cum in Syriam venerit, Gallum, quem crebro acciverat, ad Italiam properare blande hortaretur et verecunde.</p>
 		<br />
 		<p class="p2">Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante barbaricos pagos adventans velut mutato repente consilio ad placidiora deverti.</p>
@@ -62,5 +62,27 @@
 			
 			<button type="submit">Soumettre</button>
 		</div>
+		
+		
+		<table style="margin-top 5%">
+			<tr>
+				<td style="background-color: grey"><strong>Sports</strong></td>
+				<td>Tennis de table</td>
+				<td>Football</td>
+				<td>Poney</td>
+				<td>Curling</td>
+				<td>Patinage artistique</td>
+				<td>Basketball</td>
+			</tr>
+			<tr>
+				<td style="background-color: grey"><strong>Compétitions</strong></td>
+				<td>Jeux olympique</td>
+				<td>Championnats d'Europe</td>
+				<td>Coupe du monde</td>
+				<td>Championnats régionnaux</td>
+				<td>Coupe district</td>
+				<td>NBA</td>
+			</tr>
+		</table>
     </body>
 </html>
