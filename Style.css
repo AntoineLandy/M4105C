@@ -61,4 +61,10 @@ td{
 		margin-right: 15%;
 		padding: 2%;
 	}*/
+	
+	td{
+		display: block;
+		border: 0px;
+		text-align: center;
+	}
 }
