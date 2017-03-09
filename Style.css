@@ -1,80 +1,234 @@
 body{
-	background-image: url("img/bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: lightgrey;
+	background-color: lightgrey;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+header{
+	border-bottom: 1px solid black;
+	width: 100%;
+	float: left;
+    background-color: rgba(40,50,90,0.6);
+    padding-top: -2%;
+}
+
+header .logo{
+	float: left;
+	margin-top: -2%;
+	padding: 1%;
+}
+
+header ul{
+	float: right;
+	margin-top: 2%;
+	margin-right: 2%;
+    list-style-type: none;
+    width: 20%;
+    color: white;
+}
+
+header p{
+	float: right;
+	margin-right: 5%;
+    color: white;
+}
+
+header ul li{
+    float: left;
+    margin-left: 2%;
+    color: white;
+}
+
+header ul li:hover{
+    transition: all 0.25s ease-in;
+	transform: scale(1.25);
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+	margin-bottom: 1%;
 }
 
 h1{
-	font-size: 1 rem;
-	color: red;
+	text-align: center;
 }
 
-.logoiut{
-	margin-left: 35%;
-	margin-top: 2%;
-	width: 25%;
+#main{
+	background-color: lightgrey;
+	float: left;
 }
 
-.p1{
-	background-color: blue;
-	opacity: 0.5;
+#main img{
+    width: 45%;
+    margin-top: 2%;
+    margin-left: 28%;
 }
 
-.p2{
-	background-color: white;
-	opacity: 0.5;
+#main p{
+	padding: 2%;
 }
 
-.p3{
-	background-color: red;
-	opacity: 0.5;
+.img{
+	display: block;
+    background-color: rgba(40,50,90,0.6);
+	border-radius: 2%;
 }
 
-.MairieCalais{
-	max-width: 100%;
-	height: auto;
+.img ul{
+    margin-left: 20%;
+}
+
+.img ul li{
+    display: inline-block;
+	text-align: center;
+}
+
+.img ul li img{
+	width: 200px;
+	height: 200px;
+	margin-top: 7%;
+	margin-left: 7%;
+	margin-bottom: 5%;
+}
+
+.img1:hover{
+    transition: all 0.25s ease-in;
+	transform: scale(1.25);
+}
+
+/*.img img{
+	float: left;
+	margin-left: 5%;
+	width: 150px;
+	height: 150px;
+}*/
+
+#contact{
+    float: left;
+    margin-top: 5%;
+	margin-bottom: 1%;
+}
+
+.map{
+	float: left;
+	margin-top: 5%;
+	margin-right: 50%;
+	padding-bottom: 5%;
+    border-right: 2px solid black;
+    font-size: 1.25em;
 }
 
 .form{
-	margin-top: 5%;
-	margin-left: 25%;
-	margin-right: 25%;
-	padding: 2%;
-	padding-left: 5%;
-	border: solid grey 1px;
-	border-radius: 10px;
-	
+	float: right;
+    margin-top: -45%;
+	margin-left: 50%;
+	margin-right: 10%;
+    font-size: 1.25em;
+}
+
+.form input{
+    margin-bottom: 5%;
 }
 
 .form button{
-	margin-left: 25%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+    width: 20%;
+    height: 20%;
+    background-color: red;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
-table{
-	border: 5px groove grey;
-	width: 100%;
+#footer{
+	display: block;
+    margin-top: 60%;
+    border-top: 1px solid black;
+	border-radius: 5px;
+	background-color: rgba(40,50,90,0.6);
+	color: white;
+	text-decoration: bold;
+	padding: 2%;
+	padding-top: -20%;
 }
 
-td{
-	border: 2px solid grey;
 
-}
+/*******Media Queries********/
+@media (max-width: 850px){
 
-@media screen and (min-width: 200px) and (max-width: 640px){
-	.p1{
-		background-color: green;
+	header .logo{
+		width: 20%;
+	}
+
+	header ul{
+		display: none;
+	}
+
+	.img{
+		background-color: lightgrey;
+		margin-left: -50%;
+	}
+
+	.img ul li{
+		display: block;
+		margin-bottom: 5%;
+	}
+
+	#main img{
+		width: 100%;
+		margin-left: 0%;
+	}
+    
+    #contact{
+        margin-right: -10%;
+    }
+	
+	.map{
+		margin-right: -50%;
+		padding-bottom: 5%;
+		border: none;
+		width: 60%;
+	}
+
+	.map p{
+		width: 150%;
+	}
+
+	.map iframe{
+		width: 150%;
 	}
 	
 	.form{
-		margin-left: 8%;
-		margin-right: 8%;
+		float: left;
+		margin-top:5%;
+		margin-left: 2%;
+		margin-bottom: 5%;
+		background-color: rgba(40,50,90,0.6);
+		font-size: 1em;
 		padding: 2%;
+		padding-bottom: 5%;
 	}
-	
-	td{
-		display: block;
-		border: 0px;
-		text-align: center;
+
+	.form input{
+		width: 30%;
+	}
+    
+    .form button{
+		width: 40%;
+        height: auto;
+	}
+
+	.form textarea{
+		width: 30%;
+	}
+
+	.form #prenom{
+		margin-right: 50%;
+	}
+
+	#footer{
+		display: none;
 	}
 }
