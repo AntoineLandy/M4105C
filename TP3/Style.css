@@ -145,7 +145,7 @@ h1{
 #footer{
 	display: block;
     	float: left;
-	margin-top: 60%;
+	margin-top: 5%;
     	border-top: 1px solid black;
 	border-radius: 5px;
 	background-color: rgba(40,50,90,0.6);
