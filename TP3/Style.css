@@ -275,6 +275,7 @@ h1{
 
 	.map{
 		width: 40%;
+		padding-right: 5%;
 	}
 
 	.map iframe{
@@ -285,6 +286,7 @@ h1{
 	.form{
 		margin-top: -60%;
 		font-size: 1em;
+		position : absolute;
 	}
 
 	.form input{
