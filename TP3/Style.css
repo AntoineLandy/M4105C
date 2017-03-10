@@ -284,7 +284,7 @@ h1{
 	}
 
 	.form{
-		margin-top: -60%;
+		margin-top: 0%;
 		font-size: 1em;
 		position : absolute;
 	}
@@ -305,7 +305,7 @@ h1{
 	}
 
 	#footer{
-		margin-top: 90%;
+		margin-top: 50%;
 		padding-top: -50%;
 	}
 }
